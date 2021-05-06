@@ -41,6 +41,9 @@ POSSIBILITY OF SUCH DAMAGE.  */
 extern "C" {
 #endif
 
+/* [for Zrythm] flag to detect if we have the modified API */
+#define BACKTRACE_HAVE_BIN_FILENAME_AND_BASE_ADDR 1
+
 /* The backtrace state.  This struct is intentionally not defined in
    the public interface.  */
 
